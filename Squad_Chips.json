@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "7af754ed-7766-4a8e-a0d7-1676ba24f52f",
 		"name": "Squad_Chips",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "30984369",
 		"_collection_link": "https://planetary-resonance-915517.postman.co/workspace/Chips-QAcoders~ae7c4149-5ab5-4633-861c-a866f0c4374c/collection/30984369-7af754ed-7766-4a8e-a0d7-1676ba24f52f?action=share&source=collection_link&creator=30984369"
 	},
@@ -27,7 +27,21 @@
 								}
 							}
 						},
-						"url": "https://chips.qacoders-academy.com.br/api/login/"
+						"url": {
+							"raw": "https://chips.qacoders-academy.com.br/api/login/",
+							"protocol": "https",
+							"host": [
+								"chips",
+								"qacoders-academy",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"login",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -39,11 +53,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenQA}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenQA}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
@@ -56,7 +82,16 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/validateToken"
+						"url": {
+							"raw": "{{url}}/api/validateToken",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"validateToken"
+							]
+						}
 					},
 					"response": []
 				}
@@ -241,11 +276,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -258,7 +305,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -288,11 +345,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -305,7 +374,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -455,11 +534,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -472,7 +563,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -508,11 +609,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -525,7 +638,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -561,11 +684,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -578,7 +713,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -616,11 +761,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -633,7 +790,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -669,11 +836,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -686,7 +865,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -723,11 +912,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -740,7 +941,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -777,11 +988,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -794,7 +1017,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -832,11 +1065,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -849,7 +1094,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -887,11 +1142,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -904,7 +1171,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -942,11 +1219,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -959,7 +1248,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -997,11 +1296,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1014,7 +1325,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1054,11 +1375,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1071,7 +1404,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1111,11 +1454,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1128,7 +1483,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1166,11 +1531,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1183,7 +1560,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1223,11 +1610,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1240,7 +1639,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1278,11 +1687,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1295,7 +1716,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1333,11 +1764,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1350,7 +1793,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1504,11 +1957,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1521,7 +1986,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1560,11 +2035,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1577,7 +2064,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1728,11 +2225,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1745,7 +2254,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1785,11 +2304,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1802,7 +2333,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1842,11 +2383,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1859,7 +2412,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1899,11 +2462,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1916,7 +2491,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -1956,11 +2541,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -1973,7 +2570,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						}
@@ -2055,11 +2662,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
@@ -2072,7 +2691,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2249,11 +2878,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2266,7 +2907,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2296,11 +2947,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2313,7 +2976,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2340,11 +3013,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2357,7 +3042,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2386,11 +3081,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2403,7 +3110,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2432,11 +3149,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2449,7 +3178,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -2478,11 +3217,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -2495,7 +3246,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						}
@@ -2528,15 +3289,37 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{url}}/api/user/count"
+								"url": {
+									"raw": "{{url}}/api/user/count",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"count"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2562,15 +3345,37 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{url}}/api/user/count"
+								"url": {
+									"raw": "{{url}}/api/user/count",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"count"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2596,15 +3401,37 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{url}}/api/user/coun"
+								"url": {
+									"raw": "{{url}}/api/user/coun",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"coun"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2635,11 +3462,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
@@ -2652,7 +3491,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/65ddeffe62c4338de3caa6b4"
+								"url": {
+									"raw": "{{url}}/api/user/65ddeffe62c4338de3caa6b4",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"65ddeffe62c4338de3caa6b4"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2680,11 +3529,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
@@ -2697,7 +3558,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/65eb3e744a8524cdc26c7dc7"
+								"url": {
+									"raw": "{{url}}/api/user/65eb3e744a8524cdc26c7dc7",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"65eb3e744a8524cdc26c7dc7"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2727,11 +3598,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
@@ -2744,7 +3627,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -2772,11 +3665,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "GET",
 								"header": [],
@@ -2789,7 +3694,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}"
+									]
+								}
 							},
 							"response": []
 						}
@@ -2986,11 +3901,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -3003,7 +3930,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -3033,11 +3970,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -3050,7 +3999,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/login/"
+								"url": {
+									"raw": "{{url}}/api/login/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"login",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -3241,11 +4200,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -3258,7 +4229,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						},
@@ -3411,11 +4392,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3428,7 +4421,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3506,11 +4509,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3523,7 +4538,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/65ddeffe62c4338de3caa6b4"
+								"url": {
+									"raw": "{{url}}/api/user/password/65ddeffe62c4338de3caa6b4",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"65ddeffe62c4338de3caa6b4"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3601,11 +4627,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3618,7 +4656,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/status/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/status/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"status",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3690,11 +4739,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3707,7 +4768,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/status/65eb8bc34a8524cdc26d2323"
+								"url": {
+									"raw": "{{url}}/api/user/status/65eb8bc34a8524cdc26d2323",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"status",
+										"65eb8bc34a8524cdc26d2323"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3784,11 +4856,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3801,7 +4885,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3878,11 +4973,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3895,7 +5002,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -3972,11 +5089,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -3989,7 +5118,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4066,11 +5205,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4083,7 +5234,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4162,11 +5323,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4179,7 +5352,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4258,11 +5441,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4275,7 +5470,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{randomID}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{randomID}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{randomID}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4354,11 +5559,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4371,7 +5588,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4450,11 +5677,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4467,7 +5706,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4544,11 +5793,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4561,7 +5822,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4640,11 +5911,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4657,7 +5940,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4811,11 +6104,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4828,7 +6133,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -4981,11 +6297,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -4998,7 +6326,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5037,11 +6376,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5054,7 +6405,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5093,11 +6455,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5110,7 +6484,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5148,11 +6533,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5165,7 +6562,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5203,11 +6611,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5220,7 +6640,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5258,11 +6689,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5275,7 +6718,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5314,11 +6768,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5331,7 +6797,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5368,11 +6845,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5385,7 +6874,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5419,11 +6918,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5436,7 +6947,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/{{userId}"
+								"url": {
+									"raw": "{{url}}/api/user/{{userId}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"{{userId}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5473,11 +6994,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5490,7 +7023,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5524,11 +7068,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5541,7 +7097,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5578,11 +7145,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5595,7 +7174,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/status/{{userId}}"
+								"url": {
+									"raw": "{{url}}/api/user/status/{{userId}}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"status",
+										"{{userId}}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5629,11 +7219,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5646,7 +7248,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/{{userId}"
+								"url": {
+									"raw": "{{url}}/api/user/password/{{userId}",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"{{userId}"
+									]
+								}
 							},
 							"response": []
 						},
@@ -5683,11 +7296,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenUsers}}",
-										"in": "query",
-										"key": "token"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenUsers}}",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										}
+									]
 								},
 								"method": "PUT",
 								"header": [],
@@ -5700,7 +7325,18 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/password/65eb8bc34a8524cdc26d2321"
+								"url": {
+									"raw": "{{url}}/api/user/password/65eb8bc34a8524cdc26d2321",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										"password",
+										"65eb8bc34a8524cdc26d2321"
+									]
+								}
 							},
 							"response": []
 						}
@@ -5895,11 +7531,23 @@
 							"request": {
 								"auth": {
 									"type": "apikey",
-									"apikey": {
-										"value": "{{tokenQA}}",
-										"key": "token",
-										"in": "query"
-									}
+									"apikey": [
+										{
+											"key": "value",
+											"value": "{{tokenQA}}",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "token",
+											"type": "string"
+										},
+										{
+											"key": "in",
+											"value": "query",
+											"type": "string"
+										}
+									]
 								},
 								"method": "POST",
 								"header": [],
@@ -5912,7 +7560,17 @@
 										}
 									}
 								},
-								"url": "{{url}}/api/user/"
+								"url": {
+									"raw": "{{url}}/api/user/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"user",
+										""
+									]
+								}
 							},
 							"response": []
 						}
@@ -5959,7 +7617,21 @@
 								}
 							}
 						},
-						"url": "https://chips.qacoders-academy.com.br/api/login/"
+						"url": {
+							"raw": "https://chips.qacoders-academy.com.br/api/login/",
+							"protocol": "https",
+							"host": [
+								"chips",
+								"qacoders-academy",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"login",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -5993,11 +7665,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenQA}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenQA}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [],
@@ -6010,7 +7694,17 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/login/"
+						"url": {
+							"raw": "{{url}}/api/login/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"login",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -6046,15 +7740,37 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{url}}/api/company/"
+						"url": {
+							"raw": "{{url}}/api/company/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -6311,11 +8027,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [],
@@ -6328,7 +8056,17 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/"
+						"url": {
+							"raw": "{{url}}/api/company/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -6374,15 +8112,37 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{url}}/api/company/count"
+						"url": {
+							"raw": "{{url}}/api/company/count",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"count"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6412,15 +8172,37 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{url}}/api/company/{{userId}}"
+						"url": {
+							"raw": "{{url}}/api/company/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"{{userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6464,11 +8246,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PUT",
 						"header": [],
@@ -6481,7 +8275,17 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/{{userId}}"
+						"url": {
+							"raw": "{{url}}/api/company/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"{{userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6522,11 +8326,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PUT",
 						"header": [],
@@ -6539,7 +8355,18 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/address/{{randomId}}"
+						"url": {
+							"raw": "{{url}}/api/company/address/{{randomId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"address",
+								"{{randomId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6795,11 +8622,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "POST",
 						"header": [],
@@ -6812,7 +8651,17 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/"
+						"url": {
+							"raw": "{{url}}/api/company/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								""
+							]
+						}
 					},
 					"response": []
 				},
@@ -6848,11 +8697,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "DELETE",
 						"header": [],
@@ -6865,7 +8726,17 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/{{randomId}}"
+						"url": {
+							"raw": "{{url}}/api/company/{{randomId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"{{randomId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6894,11 +8765,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PUT",
 						"header": [],
@@ -6911,7 +8794,18 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/address/{{userId}}"
+						"url": {
+							"raw": "{{url}}/api/company/address/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"address",
+								"{{userId}}"
+							]
+						}
 					},
 					"response": []
 				},
@@ -6943,11 +8837,23 @@
 					"request": {
 						"auth": {
 							"type": "apikey",
-							"apikey": {
-								"value": "{{tokenUsers}}",
-								"in": "query",
-								"key": "token"
-							}
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{tokenUsers}}",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "query",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "token",
+									"type": "string"
+								}
+							]
 						},
 						"method": "PUT",
 						"header": [],
@@ -6960,7 +8866,18 @@
 								}
 							}
 						},
-						"url": "{{url}}/api/company/status/{{userId}}"
+						"url": {
+							"raw": "{{url}}/api/company/status/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"company",
+								"status",
+								"{{userId}}"
+							]
+						}
 					},
 					"response": []
 				}
