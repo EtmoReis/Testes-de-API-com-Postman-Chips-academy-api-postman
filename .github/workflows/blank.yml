@@ -64,7 +64,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: https://EtmoReis.github.io/Testes-de-API-com-Postman-qualitys-hunters-academy-api-postman/Report.html
+      url: https://github.com/EtmoReis/Testes-de-API-com-Postman-Chips-academy-api-postman/Report.html
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5
