@@ -37,7 +37,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squad Chips</title>
+    <title></title>
 </head>
 <body>
     <h3>Squad Chips</h3>
@@ -46,6 +46,10 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
         <div style="margin-right: 20px;">
             <a href="https://github.com/EtmoReis">
                 <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
+        </div>
+        <div style="margin-right: 20px;">
+            <a href="https://github.com/AndersonFranc">
+                <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
             </a>
             <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
             <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
