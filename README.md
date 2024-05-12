@@ -60,9 +60,20 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
                     <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/IsabellaCoe">
+                    <img loading="lazy" src="https://github.com/IsabellaCoe.png" width="90"><br/>
+                    <sub>Isabella Coe</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/isabella-coe-934595298/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
         </tr>
     </table>
 </body>
+</html>
+
 </html>
 
 
