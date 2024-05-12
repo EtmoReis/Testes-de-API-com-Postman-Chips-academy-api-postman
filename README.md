@@ -24,13 +24,18 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Foto de Perfil no GitHub</title>
+    <title>Squad Chips </title>
 </head>
 <body>
-    <h1>Minha Foto de Perfil no GitHub</h1>
+    <h1>Conecte-se Conosco </h1>
     <p>Veja minha foto de perfil no GitHub:</p>
     <a href="https://github.com/EtmoReis">
-        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil">
+        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub">
+    </a>
+    <br>
+    <p>Conecte-se comigo no LinkedIn:</p>
+    <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn">
     </a>
 </body>
 </html>
