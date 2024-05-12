@@ -34,9 +34,13 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <br>
     <p><a href="https://github.com/EtmoReis">EtmoReis</a></p>
     <br>
+    <p>Conecte-se comigo no Facebook:</p>
+    <p><a href="https://www.facebook.com/seuperfil">SeuNomeNoFacebook</a></p>
+    <br>
     <p>Conecte-se comigo no LinkedIn:</p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="70">
     </a>
 </body>
 </html>
+
