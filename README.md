@@ -14,7 +14,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ```
 <linha de comando>
 ```
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
