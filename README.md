@@ -15,8 +15,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <linha de comando>
 ```
 
-## :soon: Implementação futura
-* O que será implementado na próxima sprint?
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +22,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squad Chips </title>
     <style>
-        /
+        /* Estilos para ajustar o espaçamento entre o nome e o logo */
         p {
             margin-bottom: 3px; 
         }
