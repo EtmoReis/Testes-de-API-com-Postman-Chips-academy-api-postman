@@ -45,10 +45,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
-    <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
-    </a>
-    <br>
     <a href="https://github.com/AndersonFranc">
         <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
     </a>
@@ -58,5 +54,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </a>
 </body>
 </html>
+
 
 
