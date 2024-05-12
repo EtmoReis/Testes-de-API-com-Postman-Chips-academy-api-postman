@@ -32,6 +32,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <https://github.com/EtmoReis/Testes-de-API-com-Postman-Chips-academy-api-postman.git>
 ```
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,17 +48,21 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
                 <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
             </a>
             <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
+            <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
+            </a>
         </div>
-        <div>
+        <div style="margin-right: 20px;">
             <a href="https://github.com/AndersonFranc">
                 <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
             </a>
             <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
+            <a href="https://www.linkedin.com/in/anderson-francelino-/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
+            </a>
         </div>
     </div>
 </body>
-</html>
-
 </html>
 
 
