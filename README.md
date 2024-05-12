@@ -36,16 +36,17 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   ### Squad Chips ###
-   
+    <title>Squad Chips</title>
 </head>
 <body>
-    <p> Conecte-se Conosco</p>
+    <h3>Squad Chips</h3>
+    <p>Conecte-se Conosco</p>
     <a href="https://github.com/EtmoReis">
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
     <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
+    <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
     </a>
