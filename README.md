@@ -69,10 +69,20 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
                     <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/JessieFerraz">
+                    <img loading="lazy" src="https://github.com/JessieFerraz.png" width="90"><br/>
+                    <sub>Jessie Ferraz</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/jessieferraz/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
         </tr>
     </table>
 </body>
 </html>
+
 
 </html>
 
