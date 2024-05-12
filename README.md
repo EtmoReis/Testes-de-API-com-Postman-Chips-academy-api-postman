@@ -29,7 +29,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </style>
 </head>
 <body>
-    <h1>B)</h1>
     <p> Conecte-se Conosco</p>
     <a href="https://github.com/EtmoReis">
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
@@ -41,4 +40,5 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     </a>
 </body>
 </html>
+
 
