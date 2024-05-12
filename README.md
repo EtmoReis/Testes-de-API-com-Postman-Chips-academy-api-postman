@@ -41,18 +41,23 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <body>
     <h3>Squad Chips</h3>
     <p>Conecte-se Conosco</p>
-    <a href="https://github.com/EtmoReis">
-        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
-    </a>
-    <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
-    <a href="https://github.com/AndersonFranc">
-        <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
-    </a>
-    <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
-    <a href="https://www.linkedin.com/in/andersonfranc">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn de Anderson Franc" width="60">
-    </a>
+    <div style="display: flex;">
+        <div style="margin-right: 20px;">
+            <a href="https://github.com/EtmoReis">
+                <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
+            </a>
+            <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
+        </div>
+        <div>
+            <a href="https://github.com/AndersonFranc">
+                <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
+            </a>
+            <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
+        </div>
+    </div>
 </body>
+</html>
+
 </html>
 
 
