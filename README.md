@@ -19,8 +19,8 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   ## Squad Chips ##
-    </style>
+   ### Squad Chips ###
+   
 </head>
 <body>
     <p> Conecte-se Conosco</p>
