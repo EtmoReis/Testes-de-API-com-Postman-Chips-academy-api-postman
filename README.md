@@ -29,7 +29,7 @@ Em resumo, os testes com o Postman desempenham um papel crucial no desenvolvimen
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-<linha de comando>
+<https://github.com/EtmoReis/Testes-de-API-com-Postman-Chips-academy-api-postman.git>
 ```
 <!DOCTYPE html>
 <html lang="en">
