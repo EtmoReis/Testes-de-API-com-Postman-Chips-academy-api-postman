@@ -23,6 +23,12 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squad Chips </title>
+    <style>
+        /* Estilos para ajustar o espaçamento entre o nome e o logo */
+        p {
+            margin-bottom: 5px; /* Define a margem inferior do parágrafo */
+        }
+    </style>
 </head>
 <body>
     <h1>B)</h1>
@@ -31,11 +37,10 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
-    <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/"">EtmoReis</a></p>
-    <br>
-    <p></p>
+    <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
     </a>
 </body>
 </html>
+
