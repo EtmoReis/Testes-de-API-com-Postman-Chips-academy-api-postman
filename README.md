@@ -40,28 +40,30 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 </head>
 <body>
     <h3>Squad Chips</h3>
-    <p>Conecte-se Conosco</p>
-    <div style="display: flex;">
-        <div style="margin-right: 20px;">
-            <a href="https://github.com/EtmoReis">
-                <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
-            </a>
-            <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
-            <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
-            </a>
-        </div>
-        <div style="margin-right: 20px;">
-            <a href="https://github.com/AndersonFranc">
-                <img src="https://github.com/AndersonFranc.png" alt="Foto de Perfil de Anderson Franc" width="90">
-            </a>
-            <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
-            <a href="https://www.linkedin.com/in/anderson-francelino-/">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
-            </a>
-        </div>
-    </div>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="https://github.com/EtmoReis">
+                    <img loading="lazy" src="https://github.com/EtmoReis.png" width="90"><br/>
+                    <sub>EtmoReis</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/AndersonFranc">
+                    <img loading="lazy" src="https://github.com/AndersonFranc.png" width="90"><br/>
+                    <sub>Anderson Franc</sub>
+                </a><br/>
+                <a href="https://www.linkedin.com/in/anderson-francelino-/">
+                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="30">
+                </a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
+
 
 
