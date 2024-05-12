@@ -26,7 +26,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <style>
         /* Estilos para ajustar o espaçamento entre o nome e o logo */
         p {
-            margin-bottom: 5px; /* Define a margem inferior do parágrafo */
+            margin-bottom: 3px; /* Define a margem inferior do parágrafo */
         }
     </style>
 </head>
