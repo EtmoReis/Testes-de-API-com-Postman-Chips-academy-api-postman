@@ -36,10 +36,10 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Squad Chips</title>
+    <title></title>
 </head>
 <body>
-    <h3>Squad Chips</h3>
+    <h1>Squad Chips</h1>
     <table>
         <tr>
             <td align="center">
