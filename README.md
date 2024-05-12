@@ -26,12 +26,12 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 </head>
 <body>
     <h1>B)</h1>
-    <p>:Conecte-se Conosco</p>
+    <p> Conecte-se Conosco</p>
     <a href="https://github.com/EtmoReis">
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
-    <p><a href="https://github.com/EtmoReis">EtmoReis</a></p>
+    <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/"">EtmoReis</a></p>
     <br>
     <p>Conecte-se conosco no LinkedIn:</p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
