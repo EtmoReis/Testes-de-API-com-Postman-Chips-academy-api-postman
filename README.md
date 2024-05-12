@@ -17,7 +17,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 
 ## :soon: Implementação futura
 * O que será implementado na próxima sprint?
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,16 +25,17 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <title>Squad Chips </title>
 </head>
 <body>
-    <h1>Conecte-se Conosco </h1>
-    <p>Veja minha foto de perfil no GitHub:</p>
+    <h1>B)</h1>
+    <p>:Conecte-se Conosco</p>
     <a href="https://github.com/EtmoReis">
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
     <p><a href="https://github.com/EtmoReis">EtmoReis</a></p>
     <br>
-    <p>Conecte-se comigo no LinkedIn:</p>
-    <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">Etmo Reis</a></p>
+    <p>Conecte-se conosco no LinkedIn:</p>
+    <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
+    </a>
 </body>
 </html>
-
