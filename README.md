@@ -30,12 +30,13 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <h1>Conecte-se Conosco </h1>
     <p>Veja minha foto de perfil no GitHub:</p>
     <a href="https://github.com/EtmoReis">
-        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub">
+        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
     <p>Conecte-se comigo no LinkedIn:</p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="90">
     </a>
 </body>
 </html>
+
