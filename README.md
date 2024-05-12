@@ -18,7 +18,6 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ## :soon: Implementação futura
 * O que será implementado na próxima sprint?
 
-## :handshake: Colaboradores
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,10 +32,11 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
         <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil no GitHub" width="90">
     </a>
     <br>
+    <p><a href="https://github.com/EtmoReis">EtmoReis</a></p>
+    <br>
     <p>Conecte-se comigo no LinkedIn:</p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="90">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="70">
     </a>
 </body>
 </html>
-
