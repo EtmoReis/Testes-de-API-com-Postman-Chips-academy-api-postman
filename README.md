@@ -19,17 +19,18 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 * O que será implementado na próxima sprint?
 
 ## :handshake: Colaboradores
-<table>
-  <tr>
-    <td align="center">
-      <a href="http://github.com/EtmoReis">
-        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
-        <sub>
-          <b>tatialveso</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## :dart: Status do projeto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Foto de Perfil no GitHub</title>
+</head>
+<body>
+    <h1>Minha Foto de Perfil no GitHub</h1>
+    <p>Veja minha foto de perfil no GitHub:</p>
+    <a href="https://github.com/EtmoReis">
+        <img src="https://github.com/EtmoReis.png" alt="Minha Foto de Perfil">
+    </a>
+</body>
+</html>
