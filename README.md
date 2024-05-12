@@ -47,8 +47,11 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <br>
     <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">EtmoReis</a></p>
     <p><a href="https://www.linkedin.com/in/anderson-francelino-/">Anderson Francelino</a></p>
-    <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
+    <a href="https://www.linkedin.com/in/andersonfranc">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
+    </a>
+    <a href="https://github.com/AndersonFranc">
+        <img src="https://avatars.githubusercontent.com/u/92164741?s=400&u=3fffb1110281b1a6cc0c3dc79bb6d67e7b044d38&v=4" alt="Foto de Perfil de Anderson Franc" width="90">
     </a>
 </body>
 </html>
