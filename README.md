@@ -33,7 +33,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <br>
     <p><a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/"">EtmoReis</a></p>
     <br>
-    <p>Conecte-se conosco no LinkedIn:</p>
+    <p></p>
     <a href="https://www.linkedin.com/in/etmo-reis-bb46bb26a/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo do LinkedIn" width="60">
     </a>
