@@ -24,9 +24,9 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squad Chips </title>
     <style>
-        /* Estilos para ajustar o espaçamento entre o nome e o logo */
+        /
         p {
-            margin-bottom: 3px; /* Define a margem inferior do parágrafo */
+            margin-bottom: 3px; 
         }
     </style>
 </head>
